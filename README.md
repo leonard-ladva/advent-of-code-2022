@@ -4,7 +4,7 @@
 
 My Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.rust-lang.org/).
 
-[Repo template](https://github.com/fspoettel/advent-of-code-rust)
+[Repo template](https://github.com/fspoettel/advent-of-code-rust) from [fspoettel](https://github.com/fspoettel)
 
 ---
 ## Day 1 ⭐⭐
