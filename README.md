@@ -5,6 +5,7 @@
 My Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.rust-lang.org/).
 
 [Repo template](https://github.com/fspoettel/advent-of-code-rust)
+
 ---
 ## Day 1 ⭐⭐
 **Part 1**: xx:xx:xx --> **Part 2**: 00:16:21 
