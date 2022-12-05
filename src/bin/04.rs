@@ -14,14 +14,10 @@ fn make_assignment_groups(line: &str, re: &Regex) -> Option<((u32, u32), (u32, u
 
 fn is_complete_overlap(groups: ((u32, u32), (u32, u32))) -> bool {
     let ((start_1, end_1), (start_2, end_2)) = groups;
-
-	if start_1 == start_2 {
-		return true
-	}
-	if start_1 > start_2 {
-		return end_1 <= end_2
-	}
-	return end_1 >= end_2
+	return
+	start_1 >= start_2 && end_1 <= end_2
+	|| 
+	start_2 >= start_1 && end_2 <= end_1
 }
 
 fn is_partial_overlap(groups: ((u32, u32), (u32, u32))) -> bool {
