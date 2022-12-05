@@ -20,4 +20,4 @@ My Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://w
 **Part 1**: 00:48:35 --> **Part 2**: 00:10:01
 * Learned Regex along the way
 * First tried to count certain value in iterator but realizied I could just filter and then count the entire thing
-* 
+* Had to google better partial range overlap statement, because I was using 2 statements
