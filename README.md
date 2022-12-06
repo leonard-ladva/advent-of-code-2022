@@ -21,3 +21,8 @@ My Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://w
 * Learned Regex along the way
 * First tried to count certain value in iterator but realizied I could just filter and then count the entire thing
 * Had to google better partial range overlap statement, because I was using 2 statements
+## Day 5 ⭐⭐
+**Part 1**: 01:28:36 --> **Part 2**: 00:20:53
+* A lot of time spent on figuring out how to capture stack crates and save them
+	* Landed on regex in the end, but went back and front if to just use a loop
+* Not the prettiest solutions, could use more iterator methods instead of Vecs
