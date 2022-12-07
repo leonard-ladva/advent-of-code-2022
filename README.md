@@ -26,3 +26,7 @@ My Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://w
 * A lot of time spent on figuring out how to capture stack crates and save them
 	* Landed on regex in the end, but went back and front if to just use a loop
 * Not the prettiest solutions, could use more iterator methods instead of Vecs
+## Day 6 ⭐⭐
+**Part 1**: 00:21:41 --> **Part 2**: 00:02:30
+* Easier than the previous day, was really simple to convert for part 2 as well
+* Went with a HashSet for testing unique characters
